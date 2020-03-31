@@ -1,0 +1,11 @@
+﻿<Line> ::= <Command> "(" [ <Expression> ] ");" | [ <Character> ] "=" ( <Expression> | <MethodAssignment> ) ";"
+<Expression> ::= <StringLiteral> | <IntLiteral> | <VariableLiteral>
+
+<StringLiteral> ::= '"' [ <Character> ] '"'
+<IntLiteral> ::= [ <Digit> ]
+<MethodAssignment> ::= ( "Input" ) "(" ");"
+<VariableLiteral> ::= !<Command> & !<StringLiteral> & !<IntLiteral>
+<MathmaticalExpression> ::= "(" [ ( <Number> <MathsOperator> <Number> ) ] ")" | <MathmaticalExpression>
+
+<MathsOperator> ::= "+" | "-" | "/" | "*" | "%"
+<Command> ::= "Print" | "EndScript"

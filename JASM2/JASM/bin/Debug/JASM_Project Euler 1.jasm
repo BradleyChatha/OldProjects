@@ -1,0 +1,78 @@
+.class TestClass
+
+entrypoint
+.method Main
+{
+	.stack 4
+
+	// Create the Index and Sum
+	ldint 0
+	ldint 1
+	
+	// Dummy Stack Data
+	ldint 0
+	
+// Main Loop Label
+.label Loop
+	// Pops the Dummy Data and the "1000" used to check for the loop break
+	pop
+	
+	// Add Index to the Sum if Index is divisable by 3
+	mod 3
+	ldint 0
+	jmpeq Add
+	
+	// Pop the result of "mod 3" and "0"(From ldint 0)
+	pop
+	pop
+	
+	// Check to see if we've hit 1000, if we have, jump to the condition check
+	ldint 1000
+	jmpeq AfterAdd
+	
+	// If we're under 1000, pop the "1000" that was made
+	pop
+	
+	// Add Index to the Sum if Index is divisable by 5
+	mod 5
+	ldint 0
+	jmpeq Add
+	
+	// Pop the result of "mod 5" and "0" from "ldint 0"
+	pop
+	pop
+	
+	// Jump to the condition check
+	jmpneq AfterAdd
+	
+.label Add
+	// Get rid of the Arithmetic stack stuff
+	pop
+	pop
+	
+	// Add the Index to the Sum
+	adds
+
+// Loop Condition Check
+.label AfterAdd
+
+	// Add 1 to the index
+	add 1
+
+	// Reloop if the Index isn't equal to 1000
+	ldint 1000
+	jmpneq Loop
+	
+	// Otherwise print out the Sum and resolve
+	// Pop "1000" and the Index
+	pop
+	pop
+	
+	// Loads "The sum is:", output then pop it
+	ldstr "The sum is: "
+	output
+	pop
+	
+	// Display the Sum
+	output
+}

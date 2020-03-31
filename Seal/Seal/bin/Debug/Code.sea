@@ -1,0 +1,9 @@
+extern printf;
+
+method main() returns int
+{
+	printf("%s\n%s", "Hello there!", "I've been expecting you, Mr Bond.");
+	return 0;
+}
+
+eof

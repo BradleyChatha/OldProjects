@@ -1,0 +1,33 @@
+declare extern method printf(String format, ... args);
+
+declare entrypoint Main() : int
+{
+	printf(_C"Number %d", 50);
+	return 0;
+}
+
+// Expected output
+
+section text
+
+extern _printf
+
+global _WinMain@32
+
+_WinMain@32:
+	
+	push ebp
+	mov ebp, esp
+	
+	push dword 50
+	push dword .String1
+	call _printf
+	add esp, 8
+	
+	jmp .Data
+	.String1 db "Number %d", 00
+	.Data
+	
+	mov eax, 0
+	leave
+	ret

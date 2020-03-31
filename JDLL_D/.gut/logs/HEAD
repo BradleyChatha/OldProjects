@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 014c7d75bb2920cb1c57205ab9df6a1b69dbb2d7 Sealab <sealabjaster@gmail.com> 1399039575 +0100	commit (initial): Initial Commit
+014c7d75bb2920cb1c57205ab9df6a1b69dbb2d7 2eb0004d94bf6f76f1e7332ceb7f60eb8bc0f925 Sealab <sealabjaster@gmail.com> 1399313012 +0100	commit: Added Unit Tests
+2eb0004d94bf6f76f1e7332ceb7f60eb8bc0f925 57918d495750f6f47aa804324644b0f30b76e4fa Sealab <sealabjaster@gmail.com> 1399313158 +0100	commit: Added Unit Tests
+57918d495750f6f47aa804324644b0f30b76e4fa df53e98a1379079ace9d6eeb7f64a14042689e5d Sealab <sealabjaster@gmail.com> 1400086726 +0100	commit: Fixed bug where a whole number would increment
+df53e98a1379079ace9d6eeb7f64a14042689e5d 72231bbed1436caa6ba6fba3574a85ad62ad5097 Sealab <sealabjaster@gmail.com> 1400086823 +0100	commit: Added ability to call C DLL functions to JDLL
+72231bbed1436caa6ba6fba3574a85ad62ad5097 d34647f87bb0ca70e86bfc0935fe5f283cd7b623 Sealab <sealabjaster@gmail.com> 1400086873 +0100	commit: Added ability to get the size of the currently opened file
+d34647f87bb0ca70e86bfc0935fe5f283cd7b623 fb38ec6aa9e528a3616fae31b4d27f48b7a38b6b Sealab <sealabjaster@gmail.com> 1400087008 +0100	commit: Removed two files that shouldn't of even of been commited o-o
+fb38ec6aa9e528a3616fae31b4d27f48b7a38b6b 1df71c2585bd9239c3d766b93170f3de71f9b572 SealabJaster <sealabjaster@gmail.com> 1403301563 +0100	commit: Initial Commit
+1df71c2585bd9239c3d766b93170f3de71f9b572 d8224c5a8d6d4fbf2dfdb9826cec278bbc26944c SealabJaster <sealabjaster@gmail.com> 1403301645 +0100	commit: Mehh, Thinking about rewriting this
+d8224c5a8d6d4fbf2dfdb9826cec278bbc26944c 27597dbc7b87eba2ec605c9875ba7ff30ae833b5 SealabJaster <sealabjaster@gmail.com> 1403301685 +0100	commit: Initial commit
+27597dbc7b87eba2ec605c9875ba7ff30ae833b5 92d7b78b42f017b8a9238a9085c20d6134005a9f SealabJaster <sealabjaster@gmail.com> 1405110298 +0100	commit: Removed the Endianess(I got them the wrong way round anyway) stuff
+92d7b78b42f017b8a9238a9085c20d6134005a9f fe30689b7c3e19614f7aebfbdef2687617deaea0 SealabJaster <sealabjaster@gmail.com> 1405110427 +0100	commit: Made "Position" and "Line" properties, Added an EoF check to the "Peek" function, prefixed whatever I could with "this" and put more unittests in
+fe30689b7c3e19614f7aebfbdef2687617deaea0 1acfdc6c12c4a4935f9289552bff9aa14f2930ca SealabJaster <sealabjaster@gmail.com> 1405110507 +0100	commit: Moo

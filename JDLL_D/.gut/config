@@ -1,0 +1,23 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[branch]
+	autosetuprebase = always
+[branch "master"]
+	rebase = true
+	remote = origin
+	merge = refs/heads/master
+[remote "origin"]
+	url = https://SealabJaster@bitbucket.org/jasterworkshop/jdll_d.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "Bitbucket"]
+	url = git@bitbucket.org:jasterworkshop/jdll_d.git
+	fetch = +refs/heads/*:refs/remotes/Bitbucket/*
+[gui]
+	wmstate = zoomed
+	geometry = 887x427+225+225 526 265

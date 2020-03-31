@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{3947E667-4C90-4C3A-BEB9-7148D6FE0D7C}") = "Recursive_Parsing_1", "Recursive_Parsing_1\Recursive_Parsing_1.dproj", "{9715720F-77BA-48F6-835B-E3A494A680F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Unittest|Any CPU = Unittest|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9715720F-77BA-48F6-835B-E3A494A680F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9715720F-77BA-48F6-835B-E3A494A680F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9715720F-77BA-48F6-835B-E3A494A680F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9715720F-77BA-48F6-835B-E3A494A680F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9715720F-77BA-48F6-835B-E3A494A680F8}.Unittest|Any CPU.ActiveCfg = Unittest|Any CPU
+		{9715720F-77BA-48F6-835B-E3A494A680F8}.Unittest|Any CPU.Build.0 = Unittest|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Recursive_Parsing_1\Recursive_Parsing_1.dproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,41 @@
+0000000000000000000000000000000000000000 a1e55dda99997d69fa77a487ada5c5e47ecfaaac Sealab <sealabjaster@gmail.com> 1399417578 +0100	commit (initial): Initial Commit
+a1e55dda99997d69fa77a487ada5c5e47ecfaaac 05b60823aaeb7828d6e8ad6d6b9d5c6976be34e6 Sealab <sealabjaster@gmail.com> 1399419359 +0100	commit: Comments, Comments and Comments!
+05b60823aaeb7828d6e8ad6d6b9d5c6976be34e6 0662348a0c522f473c4c999f0cf5ef322f38eefd Sealab <sealabjaster@gmail.com> 1399419736 +0100	commit: Comments and Info and Description, Oh my!
+0662348a0c522f473c4c999f0cf5ef322f38eefd 9d07ca483826064a0d137d7b66cd20dcb4b49109 Sealab <sealabjaster@gmail.com> 1399419807 +0100	commit: Pointed out Death by sfFont/sfText
+9d07ca483826064a0d137d7b66cd20dcb4b49109 bd3c1f3c6d92bf6aa6a75510b8acf98ddd60c3d1 Sealab <sealabjaster@gmail.com> 1399483762 +0100	commit: Added End Tile
+bd3c1f3c6d92bf6aa6a75510b8acf98ddd60c3d1 0ee2099aa1a7bacd2cf47d09edb4946d81bbbcca Sealab <sealabjaster@gmail.com> 1399483789 +0100	commit: Added the NextLevel bool to the GlobalData structure
+0ee2099aa1a7bacd2cf47d09edb4946d81bbbcca 602fb9d06a8806b91615d6b46cb1a2a49b08b861 Sealab <sealabjaster@gmail.com> 1399483871 +0100	commit: Added check for the player hitting an end tile
+602fb9d06a8806b91615d6b46cb1a2a49b08b861 df12e73c389d472a0c7eb97cb058d3b1b6fc19c3 Sealab <sealabjaster@gmail.com> 1399483923 +0100	commit: Added the End tile and the logic for loading the next level if the NextLevel flag is set
+df12e73c389d472a0c7eb97cb058d3b1b6fc19c3 c4f8ecf6818a1f7cb3131d6dbb3ea6d36ee5c310 Sealab <sealabjaster@gmail.com> 1399509843 +0100	commit: Loaded in the SFML System function pointers, and now unload them after the Window's loop breaks
+c4f8ecf6818a1f7cb3131d6dbb3ea6d36ee5c310 5b8bca0baecd71391741a8a1221151b2564a6bb5 Sealab <sealabjaster@gmail.com> 1399509882 +0100	commit: Implemented Jumping for the player
+5b8bca0baecd71391741a8a1221151b2564a6bb5 cd07970aac968d8a50c9f8f7d86398887cb400fc Sealab <sealabjaster@gmail.com> 1399655109 +0100	commit: Pointed out Hitler
+cd07970aac968d8a50c9f8f7d86398887cb400fc 20882d019061171ea08f69500caaa7a42b43de5d Sealab <sealabjaster@gmail.com> 1399657372 +0100	commit: Created the framework for the TileInteraction class, just need to create Interaction events now ^^
+20882d019061171ea08f69500caaa7a42b43de5d c5f6f879962c255f7acee7d46cf20d30effd6d51 Sealab <sealabjaster@gmail.com> 1399657443 +0100	commit: Random Comment fix
+c5f6f879962c255f7acee7d46cf20d30effd6d51 85036dcd32c7b51c802b64b79a994628309b605b Sealab <sealabjaster@gmail.com> 1399735908 +0100	commit: Implemented the Spike Tile
+85036dcd32c7b51c802b64b79a994628309b605b 223d3e1c0d9d669d1f2e080256cdcd106c0c4e89 Sealab <sealabjaster@gmail.com> 1399751204 +0100	commit: Implemented keys, doors and added a new Base class, ColoredTiles, for tiles that need to store a Color ID
+223d3e1c0d9d669d1f2e080256cdcd106c0c4e89 30215711aa8239f1068df99a5f16698d2fab52a9 Sealab <sealabjaster@gmail.com> 1399928506 +0100	commit: Added framework for undoing events, currently not working... Q_Q
+30215711aa8239f1068df99a5f16698d2fab52a9 d83907670ecdc7ede52c10b34ad38b3d99de2273 Sealab <sealabjaster@gmail.com> 1399928584 +0100	commit: Undoing events at respawn, can now change the color of colored tiles in-game debug mode and rewrote the Player's collision check, clipping doesn't occur anymore(From my tests)
+d83907670ecdc7ede52c10b34ad38b3d99de2273 ae7cd78fa3e123548c6da23cb0348fbb71aa4cbf Sealab <sealabjaster@gmail.com> 1399989571 +0100	commit: Pressing R now calls the Respawn method, instead of just resetting the player's position
+ae7cd78fa3e123548c6da23cb0348fbb71aa4cbf 067bc97643364e644d3da9274b111bfd7417fb5f Sealab <sealabjaster@gmail.com> 1399989618 +0100	commit: Fixed bug with Doors not re-locking
+067bc97643364e644d3da9274b111bfd7417fb5f 27b077ab31e3a5847c7d9b0090afe2a47f1aaec5 Sealab <sealabjaster@gmail.com> 1400097331 +0100	commit: Overhauled how Tiles are made, they are now loaded in from an external DLL instead of being coded as part of the game
+27b077ab31e3a5847c7d9b0090afe2a47f1aaec5 8562bc940b760fb43a77030bcde47804e00ffbac Sealab <sealabjaster@gmail.com> 1400097615 +0100	commit: Initial commit
+8562bc940b760fb43a77030bcde47804e00ffbac 72d90d8c23e382422f55d4c024625a449537b576 Sealab <sealabjaster@gmail.com> 1400097678 +0100	commit: The Bats, they're too much!
+72d90d8c23e382422f55d4c024625a449537b576 b318dbd8df19888bb7c3600132980bcd264dec1d Sealab <sealabjaster@gmail.com> 1400100192 +0100	commit: Implemented Keys and Doors
+b318dbd8df19888bb7c3600132980bcd264dec1d b9025cf9fa3a9f21a78cd7b494e90357be1bd6b9 Sealab <sealabjaster@gmail.com> 1400102494 +0100	commit: Started implementation of the Turret tile, as well as the DirectionalTile type
+b9025cf9fa3a9f21a78cd7b494e90357be1bd6b9 941f861a6f549edfd892e0ad47d289e1f37de4d3 Sealab <sealabjaster@gmail.com> 1400341453 +0100	commit: Updated the Skeleton
+941f861a6f549edfd892e0ad47d289e1f37de4d3 7d998e3b27a67704d9a6d2c47fcf877cccb23b84 Sealab <sealabjaster@gmail.com> 1400341522 +0100	commit: The game will now write out what it loads in from Tiles.dll
+7d998e3b27a67704d9a6d2c47fcf877cccb23b84 cfbde31e5bfdfa545a762e838bcd75d033bebab8 Sealab <sealabjaster@gmail.com> 1400342402 +0100	commit: Updated the Skeleton
+cfbde31e5bfdfa545a762e838bcd75d033bebab8 cfbde31e5bfdfa545a762e838bcd75d033bebab8 Sealab <sealabjaster@gmail.com> 1400342444 +0100	checkout: moving from master to smartgit-temp
+cfbde31e5bfdfa545a762e838bcd75d033bebab8 b0d857897bd367aba8efe6ffdf713bc7532b6efa Sealab <sealabjaster@gmail.com> 1400342450 +0100	commit (amend): Updated the Skeleton.
+b0d857897bd367aba8efe6ffdf713bc7532b6efa 5b5ba8863815c3ffad91812f1e0c667b4a051bd5 Sealab <sealabjaster@gmail.com> 1400342463 +0100	commit (amend): Updated the Skeleton.
+5b5ba8863815c3ffad91812f1e0c667b4a051bd5 5b5ba8863815c3ffad91812f1e0c667b4a051bd5 Sealab <sealabjaster@gmail.com> 1400342477 +0100	checkout: moving from smartgit-temp to master
+5b5ba8863815c3ffad91812f1e0c667b4a051bd5 b9025cf9fa3a9f21a78cd7b494e90357be1bd6b9 Sealab <sealabjaster@gmail.com> 1400342537 +0100	checkout: moving from master to smartgit-temp
+b9025cf9fa3a9f21a78cd7b494e90357be1bd6b9 5b4910c566e00e2a25a3f34535f18e9e4403c24e Sealab <sealabjaster@gmail.com> 1400342544 +0100	commit: Updated the Skeleton
+5b4910c566e00e2a25a3f34535f18e9e4403c24e e176103a5cd58e66093bd00c6d1987994b358d6f Sealab <sealabjaster@gmail.com> 1400342557 +0100	commit (amend): The game will now write out what it loads in from Tiles.dll
+e176103a5cd58e66093bd00c6d1987994b358d6f 9e8f45bbd03b1e192026a612f388a12cfe2c2b6d Sealab <sealabjaster@gmail.com> 1400342569 +0100	commit (amend): The game will now write out what it loads in from Tiles.dll
+9e8f45bbd03b1e192026a612f388a12cfe2c2b6d 9e8f45bbd03b1e192026a612f388a12cfe2c2b6d Sealab <sealabjaster@gmail.com> 1400342581 +0100	checkout: moving from smartgit-temp to master
+9e8f45bbd03b1e192026a612f388a12cfe2c2b6d 84f4e149a5891919c7c337ded35bd6aa2e3863bd Sealab <sealabjaster@gmail.com> 1401747707 +0100	commit: Added a new method to allow easier collision detection for non-tile objects
+84f4e149a5891919c7c337ded35bd6aa2e3863bd b3c767eb94c0965dd3047e17e17bbcc2208f4d0f Sealab <sealabjaster@gmail.com> 1401747773 +0100	commit: Added support for placing Directional Tiles, as well as cleaning up the LoadTileExtention method a bit
+b3c767eb94c0965dd3047e17e17bbcc2208f4d0f f505f65be9440dc08bf0e4582e24c55dedcd89bd Sealab <sealabjaster@gmail.com> 1401747874 +0100	commit: Some Tile things
+f505f65be9440dc08bf0e4582e24c55dedcd89bd 4388e3564fdf01af4fbd0afef6f321ff1bcf9a4f Sealab <sealabjaster@gmail.com> 1401747898 +0100	commit (amend): Some Tile things
+4388e3564fdf01af4fbd0afef6f321ff1bcf9a4f bb9564980c0da393712583ba52351d1537048f41 Sealab <sealabjaster@gmail.com> 1401747960 +0100	commit: Added the Start menu

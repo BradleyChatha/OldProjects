@@ -1,0 +1,16 @@
+Print("Herro World\n"); Print("If this works, I should be allowed to have multiple functions on a single line\n");
+	Print("This should be allowed to run without issues\n");
+	Print ("So should this\n\n");
+
+StringVar = "Test variable";
+NumberVar = 123456;
+CopyVar = StringVar;
+
+Print(StringVar, "\n", NumberVar, "\n", CopyVar);
+
+Print("\n\nThou shall enter thy name now: ");
+InputVar = Input();
+Print("Hey, ", InputVar, ". Press ENTER please!");
+Input();
+
+EndScript();

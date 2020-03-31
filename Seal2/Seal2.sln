@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{3947E667-4C90-4C3A-BEB9-7148D6FE0D7C}") = "Seal2", "Seal2\Seal2.dproj", "{CEE7E012-7367-4B18-A41C-60936D77E040}"
+EndProject
+Project("{3947E667-4C90-4C3A-BEB9-7148D6FE0D7C}") = "Seal", "..\Seal\Seal\Seal.dproj", "{311E6A55-4F13-4953-9A09-8F9F0614CA57}"
+EndProject
+Project("{3947E667-4C90-4C3A-BEB9-7148D6FE0D7C}") = "JDLL", "..\JDLL\JDLL\JDLL.dproj", "{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Unittest|Any CPU = Unittest|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{311E6A55-4F13-4953-9A09-8F9F0614CA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311E6A55-4F13-4953-9A09-8F9F0614CA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311E6A55-4F13-4953-9A09-8F9F0614CA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311E6A55-4F13-4953-9A09-8F9F0614CA57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{311E6A55-4F13-4953-9A09-8F9F0614CA57}.Unittest|Any CPU.ActiveCfg = Unittest|Any CPU
+		{311E6A55-4F13-4953-9A09-8F9F0614CA57}.Unittest|Any CPU.Build.0 = Unittest|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Unittest|Any CPU.ActiveCfg = Unittest|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Unittest|Any CPU.Build.0 = Unittest|Any CPU
+		{CEE7E012-7367-4B18-A41C-60936D77E040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE7E012-7367-4B18-A41C-60936D77E040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE7E012-7367-4B18-A41C-60936D77E040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE7E012-7367-4B18-A41C-60936D77E040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE7E012-7367-4B18-A41C-60936D77E040}.Unittest|Any CPU.ActiveCfg = Unittest|Any CPU
+		{CEE7E012-7367-4B18-A41C-60936D77E040}.Unittest|Any CPU.Build.0 = Unittest|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Seal2\Seal2.dproj
+	EndGlobalSection
+EndGlobal

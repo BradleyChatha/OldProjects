@@ -1,0 +1,20 @@
+.class ClassName
+
+.entrypoint
+.method Main
+{
+	call Test "Hello!"
+	exit
+}
+
+.parameters string 
+.method Test
+{
+	ldparam 0
+	calls Jasm:WriteLine	
+	pop
+	
+	call Jasm:Write "ClassName:Test called!"
+	
+	ret
+}

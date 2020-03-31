@@ -1,0 +1,61 @@
+﻿Syntax for a class
+{
+	Example
+	{
+		.class ClassName
+
+		.entrypoint
+		.method Main
+		{
+			call Jasm:Write "Soup is Soup"
+		}
+	}
+
+	A class needs to start with the line ".class" followed by the name of the class, this allows other classes to access the methods it holds
+	Every JASM Program needs an entrypoint, so in one of your classes, create a method and prefix it with ".entrypoint"
+
+	To make a method, use ".method" followed by the Method's name.
+	Curly Braces ({ }) indicate that the code inside it belongs to the method, and all of your code for a method should go inside them
+
+	Instructions have a simple syntax, they're space seperated.
+	[Instruction name] <Parameters...>
+
+	Taking our example above:
+	[call] <Jasm:Write "Soup Is Soup">
+}
+
+Instructions
+{
+	call:
+		Syntax: call [Method] [Parameters...]
+		Example: call Jasm:Write "Herro there!"
+
+		Call will call the method [method] and pass [parameters...] to it
+
+	calls:
+		Syntax: call [Method]
+		Example
+		{
+			ldstr "Herro there!"
+			calls Jasm:Write
+		}
+
+		Functions similarly to "call", except it will take the parameters off of the class' stack instead of being given them directly
+
+	ldparam:
+		Syntax: ldparam [Parameter Index]
+		Example
+		{
+			.parameters string string
+			.method Foo
+			{
+				ldparam 0
+				calls Jasm:WriteLine
+
+				ldparam 1
+				calls Jasm:Write
+			}
+		}
+
+		Loads the parameter at index [parameter index] onto the top of the stack
+}

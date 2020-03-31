@@ -1,0 +1,34 @@
+JPK(Jaster Content Pack) File format.
+
+[Magic Number][Content Processors Used + ID][ContentList + Pointers][EOS][Data]
+
+[Magic Number]
+The magic number of the JPK file, is "JPK"
+
+[Content Processors Used + ID]
+This section contains the names of the content processors this file uses(As defined in the Base class) as well an ID associated to it
+so that the depacker knows what processor to use for what content file.
+	[Length-Prefixed(1 Byte) string, Name of the content processor][Single Byte, ID Given to the Content Processor]
+
+Before any data is written, the byte-prefix 0xF0 is used, this is to tell the depacker how to read it
+
+[ContentList + Pointers]
+This section contains the content stored in this file, the format for a single piece of content is:
+	[Length-Prefixed(1 Byte) string, The name of the content file][Content Processor ID, the ID of the processor used to pack the file][4 Bytes, How many bytes the Content file consists of][8 Bytes, Pointer to where the data for the Content file starts]
+	
+	Before any data is written, the byte-prefix 0xF1 is used, this is to tell the depacker how to read it
+
+[EOS]
+The EOS sections contains a single byte (0xFF) signifying that we've hit the End of Sections(EOS)
+	
+[Data]
+Bytes that have been processed by the content processors
+
+[Example File]
+[JPK] 
+[F0 03 IMG 00] 
+[F0 05 Audio 01] 
+[F1 03 Cat 00(IMG ID) [Cat File Size] [Cat Pointer]] 
+[F1 03 Die 01(Audio ID) [Die File Size] [Die Pointer]]
+[FF]
+[Processed Data]

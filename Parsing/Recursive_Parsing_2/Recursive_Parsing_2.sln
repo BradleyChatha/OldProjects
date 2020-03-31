@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{3947E667-4C90-4C3A-BEB9-7148D6FE0D7C}") = "Recursive_Parsing_2", "Recursive_Parsing_2\Recursive_Parsing_2.dproj", "{FFA7B99D-26AA-45C2-AA2E-0410ECADD4FD}"
+EndProject
+Project("{3947E667-4C90-4C3A-BEB9-7148D6FE0D7C}") = "JDLL", "..\..\JDLL\JDLL\JDLL.dproj", "{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Unittest|Any CPU = Unittest|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Unittest|Any CPU.ActiveCfg = Unittest|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Unittest|Any CPU.Build.0 = Unittest|Any CPU
+		{FFA7B99D-26AA-45C2-AA2E-0410ECADD4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA7B99D-26AA-45C2-AA2E-0410ECADD4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA7B99D-26AA-45C2-AA2E-0410ECADD4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA7B99D-26AA-45C2-AA2E-0410ECADD4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA7B99D-26AA-45C2-AA2E-0410ECADD4FD}.Unittest|Any CPU.ActiveCfg = Unittest|Any CPU
+		{FFA7B99D-26AA-45C2-AA2E-0410ECADD4FD}.Unittest|Any CPU.Build.0 = Unittest|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Recursive_Parsing_2\Recursive_Parsing_2.dproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{3947E667-4C90-4C3A-BEB9-7148D6FE0D7C}") = "JCity_Thing_Of_Amazon", "JCity_Thing_Of_Amazon\JCity_Thing_Of_Amazon.dproj", "{8BFF1B06-C5C6-44D3-8977-C19A9EBA9FE7}"
+EndProject
+Project("{3947E667-4C90-4C3A-BEB9-7148D6FE0D7C}") = "JDLL", "..\JDLL\JDLL\JDLL.dproj", "{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}"
+EndProject
+Project("{3947E667-4C90-4C3A-BEB9-7148D6FE0D7C}") = "SFML_Skeleton", "SFML_Skeleton\SFML_Skeleton.dproj", "{AF7E117F-BCFB-4723-95A5-4A1FB09D9A45}"
+EndProject
+Project("{3947E667-4C90-4C3A-BEB9-7148D6FE0D7C}") = "J-Platformer", "J-Platformer\J-Platformer.dproj", "{F7BC3D1B-B0B3-4ECB-9936-D44EB3C4F66A}"
+EndProject
+Project("{3947E667-4C90-4C3A-BEB9-7148D6FE0D7C}") = "JDLL_SFML", "JDLL_SFML\JDLL_SFML.dproj", "{FCC670E1-3994-4933-B678-190BA1CE3C12}"
+EndProject
+Project("{3947E667-4C90-4C3A-BEB9-7148D6FE0D7C}") = "JWorld_Server", "JWorld_Server\JWorld_Server.dproj", "{787E139A-8E77-4A38-B5CF-691E5CE3B0B5}"
+EndProject
+Project("{3947E667-4C90-4C3A-BEB9-7148D6FE0D7C}") = "RPG_Tutorial", "RPG_Tutorial\RPG_Tutorial.dproj", "{1B59B6E5-06B2-4675-91D1-353469126709}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Unittest|Any CPU = Unittest|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B59B6E5-06B2-4675-91D1-353469126709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B59B6E5-06B2-4675-91D1-353469126709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B59B6E5-06B2-4675-91D1-353469126709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B59B6E5-06B2-4675-91D1-353469126709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B59B6E5-06B2-4675-91D1-353469126709}.Unittest|Any CPU.ActiveCfg = Unittest|Any CPU
+		{1B59B6E5-06B2-4675-91D1-353469126709}.Unittest|Any CPU.Build.0 = Unittest|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Unittest|Any CPU.ActiveCfg = Unittest|Any CPU
+		{6AAFF55D-A7B1-4B8D-A375-E61875E1793C}.Unittest|Any CPU.Build.0 = Unittest|Any CPU
+		{787E139A-8E77-4A38-B5CF-691E5CE3B0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787E139A-8E77-4A38-B5CF-691E5CE3B0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787E139A-8E77-4A38-B5CF-691E5CE3B0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787E139A-8E77-4A38-B5CF-691E5CE3B0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787E139A-8E77-4A38-B5CF-691E5CE3B0B5}.Unittest|Any CPU.ActiveCfg = Unittest|Any CPU
+		{787E139A-8E77-4A38-B5CF-691E5CE3B0B5}.Unittest|Any CPU.Build.0 = Unittest|Any CPU
+		{8BFF1B06-C5C6-44D3-8977-C19A9EBA9FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFF1B06-C5C6-44D3-8977-C19A9EBA9FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFF1B06-C5C6-44D3-8977-C19A9EBA9FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFF1B06-C5C6-44D3-8977-C19A9EBA9FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BFF1B06-C5C6-44D3-8977-C19A9EBA9FE7}.Unittest|Any CPU.ActiveCfg = Unittest|Any CPU
+		{8BFF1B06-C5C6-44D3-8977-C19A9EBA9FE7}.Unittest|Any CPU.Build.0 = Unittest|Any CPU
+		{AF7E117F-BCFB-4723-95A5-4A1FB09D9A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7E117F-BCFB-4723-95A5-4A1FB09D9A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7E117F-BCFB-4723-95A5-4A1FB09D9A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7E117F-BCFB-4723-95A5-4A1FB09D9A45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF7E117F-BCFB-4723-95A5-4A1FB09D9A45}.Unittest|Any CPU.ActiveCfg = Unittest|Any CPU
+		{AF7E117F-BCFB-4723-95A5-4A1FB09D9A45}.Unittest|Any CPU.Build.0 = Unittest|Any CPU
+		{F7BC3D1B-B0B3-4ECB-9936-D44EB3C4F66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BC3D1B-B0B3-4ECB-9936-D44EB3C4F66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BC3D1B-B0B3-4ECB-9936-D44EB3C4F66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BC3D1B-B0B3-4ECB-9936-D44EB3C4F66A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BC3D1B-B0B3-4ECB-9936-D44EB3C4F66A}.Unittest|Any CPU.ActiveCfg = Unittest|Any CPU
+		{F7BC3D1B-B0B3-4ECB-9936-D44EB3C4F66A}.Unittest|Any CPU.Build.0 = Unittest|Any CPU
+		{FCC670E1-3994-4933-B678-190BA1CE3C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC670E1-3994-4933-B678-190BA1CE3C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC670E1-3994-4933-B678-190BA1CE3C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC670E1-3994-4933-B678-190BA1CE3C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC670E1-3994-4933-B678-190BA1CE3C12}.Unittest|Any CPU.ActiveCfg = Unittest|Any CPU
+		{FCC670E1-3994-4933-B678-190BA1CE3C12}.Unittest|Any CPU.Build.0 = Unittest|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = JCity_Thing_Of_Amazon\JCity_Thing_Of_Amazon.dproj
+	EndGlobalSection
+EndGlobal

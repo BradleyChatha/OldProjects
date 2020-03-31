@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 e6f387e9739f192db9197f3fd5bcccfa9ac96f06 Sealab <sealabjaster@gmail.com> 1399684253 +0100	commit (initial): Initial commit
+e6f387e9739f192db9197f3fd5bcccfa9ac96f06 8a743d62f63f45f4f583cca51a31fae01fa4cff0 Sealab <sealabjaster@gmail.com> 1399685900 +0100	commit: Started the Textbox control
+8a743d62f63f45f4f583cca51a31fae01fa4cff0 49f9619d4ca2125711af9e69dae41ed27af944de Sealab <sealabjaster@gmail.com> 1399735155 +0100	commit: Finished up the Update method, for now.
+49f9619d4ca2125711af9e69dae41ed27af944de c3ace06de5b663cddaead29d425e6dbeabef5a87 Sealab <sealabjaster@gmail.com> 1399739623 +0100	commit: Added more keys, and added support for Shift characters
+c3ace06de5b663cddaead29d425e6dbeabef5a87 f41a8b7ee9f859941695bafc36df0b5eafbf0ba5 Sealab <sealabjaster@gmail.com> 1399739656 +0100	commit: Extended the Textbox's functionality
+f41a8b7ee9f859941695bafc36df0b5eafbf0ba5 3c5764eabeb330b5a47fff0171e8e15f7b443e86 Sealab <sealabjaster@gmail.com> 1399740631 +0100	commit: Added the RegisterFont method and the sfFont*[string] array
+3c5764eabeb330b5a47fff0171e8e15f7b443e86 aa825f026cc166d9684e3e49d6873cb5b42d87ad Sealab <sealabjaster@gmail.com> 1399740809 +0100	commit: Finished up the Textbox Control, added drawing of the sprite and InputString. Added ability to choose the Offset the text is drawn at.
+aa825f026cc166d9684e3e49d6873cb5b42d87ad b53adf7bed4fb554e9a7e3ac02af8ce10cc46a7a Sealab <sealabjaster@gmail.com> 1399751162 +0100	commit: Added the SetupText method to Button
+b53adf7bed4fb554e9a7e3ac02af8ce10cc46a7a 43c8a5f0e230e85eecf107b01d4e116015171ccc Sealab <sealabjaster@gmail.com> 1399923912 +0100	commit: TODO: Figure out why this is so stupid
+43c8a5f0e230e85eecf107b01d4e116015171ccc 73c00519ae567abc58c99ba89c4f2a2e33b931ac Sealab <sealabjaster@gmail.com> 1399923961 +0100	commit: Added the ability to choose a Time interval for when to move to the next Frame in the animation class
+73c00519ae567abc58c99ba89c4f2a2e33b931ac af3f4a5d50bc97b64803c04e44bf7bf313f1468f Sealab <sealabjaster@gmail.com> 1399924021 +0100	commit: Added ValueBox Control, fixed up bugs in the Textbox Control as well as getting it into a usable state.
+af3f4a5d50bc97b64803c04e44bf7bf313f1468f 6552c81ac1a3c6a98136e6100f1658a7fc5c80f0 Sealab <sealabjaster@gmail.com> 1400097255 +0100	commit: Got rid of a not needed TODO
+6552c81ac1a3c6a98136e6100f1658a7fc5c80f0 96ece4e3ad139c3ba02f20feaee2d8e675d98f51 Sealab <sealabjaster@gmail.com> 1401747632 +0100	commit: Fixed up some controls(Very informative commit)

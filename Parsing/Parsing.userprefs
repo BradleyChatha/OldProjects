@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Recursive_Parsing_2\Recursive_Parsing_2\Parser.d">
+    <Files>
+      <File FileName="Recursive_Parsing_2\Recursive_Parsing_2\main.d" Line="1" Column="1" />
+      <File FileName="Recursive_Parsing_2\Recursive_Parsing_2\Parser.d" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
