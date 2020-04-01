@@ -9,6 +9,8 @@ Thankfully it seems most of the projects have their compiled output with them, b
 
 Note: I've provided decompiled source files for any projects that are missing their original source code.
 
+* Super Hidden File Creator(2011) - 12 year old me was being a script kiddie, trying to look cool.
+
 * JPlatformer(2013) - My very first game project. This is "Alpha 1.0", the final version of the original C# version.
 
 * StackPack(2013) - A relatively successful Minecraft mod which could store stacks of items and blocks into a "StackPack".
