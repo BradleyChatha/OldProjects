@@ -1,0 +1,211 @@
+------------------
+= Timer Is 3020507	1	0	0	0	0	0
+------------------
+	 1314	_Dmain
+_D3std5array12__T5emptyTaZ5emptyFNaNbNdNfxAaZb	1314	83	83
+------------------
+	   79	_D3std5stdio4File16__T5writeTAyuTaZ5writeMFAyuaZv
+_D3std5range46__T3putTS3std5stdio4File17LockingTextWriterTaZ3putFKS3std5stdio4File17LockingTextWriteraZv	79	30814	45
+	   79	_D3std5stdio4File17LockingTextWriter10__T3putTaZ3putMFaZv
+------------------
+	   79	_D3std5stdio4File16__T5writeTAyuTaZ5writeMFAyuaZv
+_D3std5range48__T3putTS3std5stdio4File17LockingTextWriterTAyuZ3putFKS3std5stdio4File17LockingTextWriterAyuZv	79	90	48
+	   79	_D3std5stdio4File17LockingTextWriter12__T3putTAyuZ3putMFAyuZv
+------------------
+	  425	_D4Game6MainGS6UpdateMFZv
+======== Timer Is 3020507	1	0	0	425	258856	258780
+	  425	_D3std9exception14__T7enforceTbZ7enforceFNaNfbLAxaAyakZb
+------------------
+= Timer Is 3020507	1	0	0	0	0	0
+------------------
+	   79	_D4Game6MainGS6UpdateMFZv
+_D3std5stdio16__T7writelnTAyuZ7writelnFAyuZv	79	31344	45
+	   79	_D3std5stdio4File16__T5writeTAyuTaZ5writeMFAyuaZv
+------------------
+	   79	_D3std5stdio16__T7writelnTAyuZ7writelnFAyuZv
+_D3std5stdio4File16__T5writeTAyuTaZ5writeMFAyuaZv	79	31299	382
+	   79	_D3std9exception14__T7enforceTbZ7enforceFNaNfbLAxaAyakZb
+	   79	_D3std5range48__T3putTS3std5stdio4File17LockingTextWriterTAyuZ3putFKS3std5stdio4File17LockingTextWriterAyuZv
+	   79	_D3std5range46__T3putTS3std5stdio4File17LockingTextWriterTaZ3putFKS3std5stdio4File17LockingTextWriteraZv
+------------------
+	   79	_D3std5range46__T3putTS3std5stdio4File17LockingTextWriterTaZ3putFKS3std5stdio4File17LockingTextWriteraZv
+_D3std5stdio4File17LockingTextWriter10__T3putTaZ3putMFaZv	79	30769	30769
+------------------
+	   79	_D3std5range48__T3putTS3std5stdio4File17LockingTextWriterTAyuZ3putFKS3std5stdio4File17LockingTextWriterAyuZv
+_D3std5stdio4File17LockingTextWriter12__T3putTAyuZ3putMFAyuZv	79	42	42
+------------------
+	    2	_D6Jaster3GUI8Controls7Textbox6UpdateMFZv
+======== Timer Is 3020507	1	0	0	2	49191	49190
+	    1	_D6Jaster3GUI8Controls7Textbox6__ctorMFPS8derelict5sfml213graphicstypes14sfRen
+------------------
+= Timer Is 3020507	1	0	0	0	0	0
+------------------
+	 1655	_D6Jaster3GUI8Controls7Textbox6UpdateMFZv
+ ã 2	_D6Jaster3GUI8Controls7Textbox6__ctorMFPS8derelict5sfml213graphicsty	1655	515	450
+	  897	_D6Jaster3GUI8Controls7Textbox6__ctorMFPS8derelict5sfml213graphicstypes14sfRenderWindowPS8derelict5sfml2
+------------------
+	    1	= Timer Is 3020507	1	0	0
+ ã 2	_D6Jaster3GUI8Controls7Textbox6__ctorMFPS8derelict5sfml213graphicstypes	1	1	1
+------------------
+	  897	_D6Jaster3GUI8Controls7Textbox6__ctorMFPS8derelict5sfml213graphicstypes14sf
+ ã 2	_D6Jaster3GUI8Controls7Textbox6__ctorMFPS8derelict5sfml213graphicstypes14sfRenderWindowPS8derelic	897	65	65
+------------------
+_D6Jaster3GUI8Controls7Textbox6__ctorMFPS8derelict5sfml213graphicstypes14sf	0	0	0
+------------------
+_D6Jaster3GUI8Controls7Textbox6__ctorMFPS8derelict5sfml213graphicstypes14sfRen	0	0	0
+------------------
+_D6Jaster3GUI8Controls7Textbox6__ctorMFPS8derelict5sfml213graphicstypes14sfRenderWindowPS8derelict5sfml2	0	0	0
+------------------
+	   79	_D3std5stdio4File16__T5writeTAyuTaZ5writeMFAyuaZv
+	  425	= Timer Is 3020507	1	0	0
+_D3std9exception14__T7enforceTbZ7enforceFNaNfbLAxaAyakZb	504	89	89
+------------------
+	  505	_D6Jaster9GameState16GameStateManager4DrawMFZv
+_D4Game6MainGS4DrawMFZv	505	38820	964
+	  505	_D6Jaster3GUI8Controls7Textbox4DrawMFZv
+------------------
+	    3	_D6Jaster9GameState16GameStateManager15SwitchGameStateMFAyabbZv
+_D4Game6MainGS4InitMFZv	3	63992	82
+	    3	_D6Jaster9GameState9GameState15RegisterTextureMFAyaAyaiiZv
+	    3	_D6Jaster3GUI8Controls7Textbox6__ctorMFPS8derelict5sfml213graphicstypes14sfRenderWindowPS8derelict5sfml213graphicstypes9sfTextureiiZC6Jaster3GUI8Controls7Textbox
+------------------
+	    1	_D6Jaster9GameState16GameStateManager15UninitGameStateMFAyaZv
+_D4Game6MainGS6UninitMFZv	1	1	1
+------------------
+	   79	_D6Jaster9GameState16GameStateManager6UpdateMFZv
+_D4Game6MainGS6UpdateMFZv	79	45457	68
+	   79	_D6Jaster3GUI8Controls7Textbox6UpdateMFZv
+	   79	_D3std5stdio16__T7writelnTAyuZ7writelnFAyuZv
+------------------
+	    1	_Dmain
+_D4Game6MainGS6__ctorMFPS8derelict5sfml213graphicstypes14sfRenderWindowPC6Jaster9GameState16GameStateManagerZC4Game6MainGS	1	0	0
+------------------
+	    5	_D6Jaster3GUI8Controls7Textbox6UpdateMFZv
+_D6Jaster3GUI8Controls10GUIControl11IsMouseOverMFZb	5	98	93
+	    5	_D6Jaster6Entity6Entity11GetPositionMFZS8derelict5sfml211systemtypes10sfVector2f
+------------------
+	    1	_D6Jaster3GUI8Controls7Textbox6__ctorMFPS8derelict5sfml213graphicstypes14sfRenderWindowPS8derelict5sfml213graphicstypes9sfTextureS8derelict5sfml211systemtypes10sfVector2fZC6Jaster3GUI8Controls7Textbox
+_D6Jaster3GUI8Controls10GUIControl5SetupMFPS8derelict5sfml213graphicstypes14sfRenderWindowS8derelict5sfml211systemtypes10sfVector2fZv	1	4	4
+	    1	_D6Jaster6Entity6Entity11SetPositionMFS8derelict5sfml211systemtypes10sfVector2fZv
+------------------
+	   79	_D4Game6MainGS4DrawMFZv
+_D6Jaster3GUI8Controls7Textbox4DrawMFZv	79	9840	9840
+------------------
+	   79	_D4Game6MainGS6UpdateMFZv
+_D6Jaster3GUI8Controls7Textbox6UpdateMFZv	79	14045	608
+	   79	_D6Jaster3GUI8Keyboard8Keyboard14GetPressedKeysFZAu
+	    5	_D6Jaster3GUI8Controls10GUIControl11IsMouseOverMFZb
+------------------
+	    1	_D6Jaster3GUI8Controls7Textbox6__ctorMFPS8derelict5sfml213graphicstypes14sfRenderWindowPS8derelict5sfml213graphicstypes9sfTextureiiZC6Jaster3GUI8Controls7Textbox
+_D6Jaster3GUI8Controls7Textbox6__ctorMFPS8derelict5sfml213graphicstypes14sfRenderWindowPS8derelict5sfml213graphicstypes9sfTextureS8derelict5sfml211systemtypes10sfVector2fZC6Jaster3GUI8Controls7Textbox	1	23	5
+	    1	_D6Jaster6Entity6Entity10SetTextureMFPS8derelict5sfml213graphicstypes9sfTextureZv
+	    1	_D6Jaster3GUI8Controls10GUIControl5SetupMFPS8derelict5sfml213graphicstypes14sfRenderWindowS8derelict5sfml211systemtypes10sfVector2fZv
+------------------
+	    1	_D4Game6MainGS4InitMFZv
+_D6Jaster3GUI8Controls7Textbox6__ctorMFPS8derelict5sfml213graphicstypes14sfRenderWindowPS8derelict5sfml213graphicstypes9sfTextureiiZC6Jaster3GUI8Controls7Textbox	1	23	0
+	    1	_D6Jaster3GUI8Controls7Textbox6__ctorMFPS8derelict5sfml213graphicstypes14sfRenderWindowPS8derelict5sfml213graphicstypes9sfTextureS8derelict5sfml211systemtypes10sfVector2fZC6Jaster3GUI8Controls7Textbox
+------------------
+	 3160	_D6Jaster3GUI8Keyboard8Keyboard14GetPressedKeysFZAu
+_D6Jaster3GUI8Keyboard8Keyboard11AddToBufferFiuZv	3160	12235	12235
+------------------
+	   79	_D6Jaster3GUI8Controls7Textbox6UpdateMFZv
+_D6Jaster3GUI8Keyboard8Keyboard14GetPressedKeysFZAu	79	13339	1104
+	 3160	_D6Jaster3GUI8Keyboard8Keyboard11AddToBufferFiuZv
+------------------
+	    1	_D6Jaster3GUI8Controls7Textbox6__ctorMFPS8derelict5sfml213graphicstypes14sfRenderWindowPS8derelict5sfml213graphicstypes9sfTextureS8derelict5sfml211systemtypes10sfVector2fZC6Jaster3GUI8Controls7Textbox
+_D6Jaster6Entity6Entity10SetTextureMFPS8derelict5sfml213graphicstypes9sfTextureZv	1	14	14
+------------------
+	    5	_D6Jaster3GUI8Controls10GUIControl11IsMouseOverMFZb
+_D6Jaster6Entity6Entity11GetPositionMFZS8derelict5sfml211systemtypes10sfVector2f	5	5	5
+------------------
+	    1	_D6Jaster3GUI8Controls10GUIControl5SetupMFPS8derelict5sfml213graphicstypes14sfRenderWindowS8derelict5sfml211systemtypes10sfVector2fZv
+_D6Jaster6Entity6Entity11SetPositionMFS8derelict5sfml211systemtypes10sfVector2fZv	1	0	0
+------------------
+	    1	_Dmain
+_D6Jaster6System8GameTime6CreateFZv	1	26	26
+------------------
+	   79	_Dmain
+_D6Jaster6System8GameTime7RestartFZv	79	15689	15689
+------------------
+	    1	_Dmain
+_D6Jaster9GameState16GameStateManager15SwitchGameStateMFAyabbZv	1	21187	3
+	    1	_D4Game6MainGS4InitMFZv
+------------------
+	    1	_Dmain
+_D6Jaster9GameState16GameStateManager15UninitGameStateMFAyaZv	1	2	1
+	    1	_D4Game6MainGS6UninitMFZv
+------------------
+	    1	_Dmain
+_D6Jaster9GameState16GameStateManager17RegisterGameStateMFC6Jaster9GameState9GameStateAyaZv	1	5	5
+------------------
+	   79	_Dmain
+_D6Jaster9GameState16GameStateManager4DrawMFZv	79	10285	277
+	   79	_D4Game6MainGS4DrawMFZv
+------------------
+	   79	_Dmain
+_D6Jaster9GameState16GameStateManager6UpdateMFZv	79	45530	73
+	   79	_D4Game6MainGS6UpdateMFZv
+------------------
+	    1	_D4Game6MainGS4InitMFZv
+_D6Jaster9GameState9GameState15RegisterTextureMFAyaAyaiiZv	1	21150	21150
+------------------
+_Dmain	0	5082980	4990233
+	  438	_D3std5array12__T5emptyTaZ5emptyFNaNbNdNfxAaZb
+	    1	_D6Jaster6System8GameTime6CreateFZv
+	    1	_D4Game6MainGS6__ctorMFPS8derelict5sfml213graphicstypes14sfRenderWindowPC6Jaster9GameState16GameStateManagerZC4Game6MainGS
+	    1	_D6Jaster9GameState16GameStateManager17RegisterGameStateMFC6Jaster9GameState9GameStateAyaZv
+	    1	_D6Jaster9GameState16GameStateManager15SwitchGameStateMFAyabbZv
+	   79	_D6Jaster6System8GameTime7RestartFZv
+	   79	_D6Jaster9GameState16GameStateManager4DrawMFZv
+	   79	_D6Jaster9GameState16GameStateManager6UpdateMFZv
+	    1	_D6Jaster9GameState16GameStateManager15UninitGameStateMFAyaZv
+
+======== Timer Is 3020507 Ticks/Sec, Times are in Microsecs ========
+
+  Num          Tree        Func        Per
+  Calls        Time        Time        Call
+
+      1     1682823     1652117     1652117     _Dmain
+    425       85699       85674         201     ======== Timer Is 3020507	1	0	0
+      2       16285       16285        8142     ======== Timer Is 3020507	1	0	0
+     79       10186       10186         128     void std.stdio.File.LockingTextWriter.put!(char).put(char)
+      1        7002        7002        7002     void Jaster.GameState.GameState.RegisterTexture(immutable(char)[], immutable(char)[], int, int)
+     79        5194        5194          65     void Jaster.System.GameTime.Restart()
+   3160        4050        4050           1     void Jaster.GUI.Keyboard.Keyboard.AddToBuffer(int, wchar)
+     79        3257        3257          41     void Jaster.GUI.Controls.Textbox.Draw()
+     79        4416         365           4     wchar[] Jaster.GUI.Keyboard.Keyboard.GetPressedKeys()
+    505       12852         319           0     void Game.MainGS.Draw()
+     79        4649         201           2     void Jaster.GUI.Controls.Textbox.Update()
+   1655         170         148           0     ´;Ô,*Ø-*Ð+* =X>d**`)*0**,)*ü)*-*Ì**Œ>,*
+     79       10362         126           1     void std.stdio.File.write!(immutable(wchar)[], char).write(immutable(wchar)[], char)
+     79        3405          91           1     void Jaster.GameState.GameStateManager.Draw()
+      5          32          30           6     bool Jaster.GUI.Controls.GUIControl.IsMouseOver()
+    504          29          29           0     pure @safe bool std.exception.enforce!(bool).enforce(bool, lazy const(char)[], immutable(char)[], uint)
+   1314          27          27           0     pure nothrow @property @safe bool std.array.empty!(char).empty(const(char[]))
+      3       21185          27           9     void Game.MainGS.Init()
+     79       15073          24           0     void Jaster.GameState.GameStateManager.Update()
+     79       15049          22           0     void Game.MainGS.Update()
+    897          21          21           0     ´;Ô,*Ø-*Ð+* =X>d**`)*0**,)*ü)*-*Ì**Œ>,*
+     79          29          15           0     void std.range.put!(std.stdio.File.LockingTextWriter, immutable(wchar)[]).put(ref std.stdio.File.LockingTextWriter, immutable(wchar)[])
+     79       10201          14           0     void std.range.put!(std.stdio.File.LockingTextWriter, char).put(ref std.stdio.File.LockingTextWriter, char)
+     79       10377          14           0     void std.stdio.writeln!(immutable(wchar)[]).writeln(immutable(wchar)[])
+     79          13          13           0     void std.stdio.File.LockingTextWriter.put!(immutable(wchar)[]).put(immutable(wchar)[])
+      1           8           8           8     void Jaster.System.GameTime.Create()
+      1           4           4           4     void Jaster.Entity.Entity.SetTexture(derelict.sfml2.graphicstypes.sfTexture*)
+      1           7           1           1     Jaster.GUI.Controls.Textbox Jaster.GUI.Controls.Textbox.__ctor(derelict.sfml2.graphicstypes.sfRenderWindow*, derelict.sfml2.graphicstypes.sfTexture*, derelict.sfml2.systemtypes.sfVector2f)
+      5           1           1           0     derelict.sfml2.systemtypes.sfVector2f Jaster.Entity.Entity.GetPosition()
+      1           1           1           1     void Jaster.GameState.GameStateManager.RegisterGameState(Jaster.GameState.GameState, immutable(char)[])
+      1           1           1           1     void Jaster.GUI.Controls.GUIControl.Setup(derelict.sfml2.graphicstypes.sfRenderWindow*, derelict.sfml2.systemtypes.sfVector2f)
+      1        7014           0           0     void Jaster.GameState.GameStateManager.SwitchGameState(immutable(char)[], bool, bool)
+      1           0           0           0     void Jaster.GameState.GameStateManager.UninitGameState(immutable(char)[])
+      1           0           0           0     ´;Ô,*Ø-*Ð+* =X>d**`)*0**,)*ü)*-*Ì**Œ>,*
+      1           0           0           0     void Game.MainGS.Uninit()
+      1           0           0           0     Ø-*Ð+* =X>d**`)*0**,)*ü)*-*Ì**Œ>,*
+      1           0           0           0     void Jaster.Entity.Entity.SetPosition(derelict.sfml2.systemtypes.sfVector2f)
+      1           0           0           0     = Timer Is 3020507	1	0	0
+      1           0           0           0     = Timer Is 3020507	1	0	0
+      1           0           0           0     Game.MainGS Game.MainGS.__ctor(derelict.sfml2.graphicstypes.sfRenderWindow*, Jaster.GameState.GameStateManager*)
+      1           0           0           0     Ø-*Ð+* =X>d**`)*0**,)*ü)*-*Ì**Œ>,*
+      1           7           0           0     Jaster.GUI.Controls.Textbox Jaster.GUI.Controls.Textbox.__ctor(derelict.sfml2.graphicstypes.sfRenderWindow*, derelict.sfml2.graphicstypes.sfTexture*, int, int)
+      1           0           0           0     = Timer Is 3020507	1	0	0
+      1           0           0           0     Ø-*Ð+* =X>d**`)*0**,)*ü)*-*Ì**Œ>,*
